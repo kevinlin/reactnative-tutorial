@@ -23,11 +23,11 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.zuhlke.learning",
+      "bundleIdentifier": "com.zuhlke.learning.react-native",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.zuhlke.learning"
+      "package": "com.zuhlke.learning.react-native"
     }
   }
 }
