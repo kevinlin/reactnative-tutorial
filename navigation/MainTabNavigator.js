@@ -3,7 +3,7 @@ import {Platform} from 'react-native';
 import {createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
-import Bananas from "../screens/Bananas";
+import Greetings from "../screens/Greetings";
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
@@ -26,7 +26,7 @@ HomeStack.navigationOptions = {
 };
 
 const TestStack = createStackNavigator({
-    Links: Bananas,
+    Links: Greetings,
 });
 TestStack.navigationOptions = {
     tabBarLabel: 'Test',
