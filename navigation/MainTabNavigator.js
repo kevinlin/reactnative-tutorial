@@ -5,7 +5,7 @@ import {createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
-import Greetings from "../screens/LotsOfGreetings";
+import LotsOfStyles from "../screens/LotsOfStyles";
 import SettingsScreen from '../screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
@@ -26,7 +26,7 @@ HomeStack.navigationOptions = {
 };
 
 const TestStack = createStackNavigator({
-    Links: Greetings,
+    Links: LotsOfStyles,
 });
 TestStack.navigationOptions = {
     tabBarLabel: 'Test',
