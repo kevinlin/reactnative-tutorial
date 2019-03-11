@@ -3,8 +3,8 @@ import {Platform} from 'react-native';
 import {createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
-import FlexDimensionsBasics from "../screens/FlexDimensionsBasics";
 import HomeScreen from '../screens/HomeScreen';
+import IScrolledDownAndWhatHappenedNextShockedMe from "../screens/IScrolledDownAndWhatHappenedNextShockedMe";
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
@@ -26,7 +26,7 @@ HomeStack.navigationOptions = {
 };
 
 const TestStack = createStackNavigator({
-    Links: FlexDimensionsBasics,
+    Links: IScrolledDownAndWhatHappenedNextShockedMe,
 });
 TestStack.navigationOptions = {
     tabBarLabel: 'Test',
