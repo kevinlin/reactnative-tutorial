@@ -3,9 +3,9 @@ import {Platform} from 'react-native';
 import {createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
-import Greetings from "../screens/Greetings";
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
+import Greetings from "../screens/LotsOfGreetings";
 import SettingsScreen from '../screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
