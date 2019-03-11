@@ -3,9 +3,9 @@ import {Platform} from 'react-native';
 import {createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
+import FlexDimensionsBasics from "../screens/FlexDimensionsBasics";
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
-import LotsOfStyles from "../screens/LotsOfStyles";
 import SettingsScreen from '../screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
@@ -26,7 +26,7 @@ HomeStack.navigationOptions = {
 };
 
 const TestStack = createStackNavigator({
-    Links: LotsOfStyles,
+    Links: FlexDimensionsBasics,
 });
 TestStack.navigationOptions = {
     tabBarLabel: 'Test',
